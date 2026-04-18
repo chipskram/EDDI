@@ -950,5 +950,11 @@ namespace EddiSpeechResponder.Properties {
                 return ResourceManager.GetString("VoiceDetails", resourceCulture);
             }
         }
+
+        public static string Webhook {
+            get {
+                return ResourceManager.GetString("Webhook", resourceCulture);
+            }
+        }
     }
 }

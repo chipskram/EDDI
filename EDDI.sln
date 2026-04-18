@@ -128,6 +128,9 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Monitors", "Monitors", "{7511F244-BC52-4F4A-ABBE-3956957B4F1B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data Services", "Data Services", "{DBAE065B-DD96-4349-9189-D0935280BB0B}"
+	ProjectSection(SolutionItems) = preProject
+		SpeechResponder\CustomFunctions\ICAO.cs = SpeechResponder\CustomFunctions\ICAO.cs
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EddiUI", "EddiUI\EddiUI.csproj", "{645DC2B5-55B4-4D7B-B6D0-4536CA561FA4}"
 EndProject
@@ -142,6 +145,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EddiVoiceAttackAdapter", "VoiceAttackAdapter\EddiVoiceAttackAdapter.csproj", "{3B2327CE-091A-4EEE-94D3-7923309F63A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EddiIPC_Service", "IPC_Service\EddiIPC_Service.csproj", "{6D178024-2B17-A598-760C-ED5440830C10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EddiWebhookService", "EddiWebhookService\EddiWebhookService.csproj", "{942A0D83-5E8D-4A8F-89B1-BBF64900424E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -297,6 +302,10 @@ Global
 		{6D178024-2B17-A598-760C-ED5440830C10}.Debug|x64.Build.0 = Debug|x64
 		{6D178024-2B17-A598-760C-ED5440830C10}.Release|x64.ActiveCfg = Release|x64
 		{6D178024-2B17-A598-760C-ED5440830C10}.Release|x64.Build.0 = Release|x64
+		{942A0D83-5E8D-4A8F-89B1-BBF64900424E}.Debug|x64.ActiveCfg = Debug|x64
+		{942A0D83-5E8D-4A8F-89B1-BBF64900424E}.Debug|x64.Build.0 = Debug|x64
+		{942A0D83-5E8D-4A8F-89B1-BBF64900424E}.Release|x64.ActiveCfg = Release|x64
+		{942A0D83-5E8D-4A8F-89B1-BBF64900424E}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -330,12 +339,13 @@ Global
 		{D7225D92-7E51-431E-B91B-DD3D7CCB59F1} = {7511F244-BC52-4F4A-ABBE-3956957B4F1B}
 		{170A4485-CAF0-49AF-83EF-C4BB7A35E964} = {7511F244-BC52-4F4A-ABBE-3956957B4F1B}
 		{6D178024-2B17-A598-760C-ED5440830C10} = {DBAE065B-DD96-4349-9189-D0935280BB0B}
+		{942A0D83-5E8D-4A8F-89B1-BBF64900424E} = {DBAE065B-DD96-4349-9189-D0935280BB0B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {28C2EDB6-0FA0-409F-987C-7A24F542D0CF}
-		RESX_TaskErrorCategory = Message
-		RESX_AutoCreateNewLanguageFiles = True
-		RESX_ShowErrorsInErrorList = False
 		RESX_SortFileContentOnSave = True
+		RESX_ShowErrorsInErrorList = False
+		RESX_AutoCreateNewLanguageFiles = True
+		RESX_TaskErrorCategory = Message
+		SolutionGuid = {28C2EDB6-0FA0-409F-987C-7A24F542D0CF}
 	EndGlobalSection
 EndGlobal
