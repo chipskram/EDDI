@@ -956,5 +956,12 @@ namespace EddiSpeechResponder.Properties {
                 return ResourceManager.GetString("Webhook", resourceCulture);
             }
         }
+        public static string SetDPButtonIcon
+        {
+            get
+            {
+                return ResourceManager.GetString( "SetDPButtonIcon", resourceCulture );
+            }
+        }
     }
 }

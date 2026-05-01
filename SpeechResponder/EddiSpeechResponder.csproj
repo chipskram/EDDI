@@ -22,6 +22,7 @@
         <ProjectReference Include="..\CompanionAppService\EddiCompanionAppService.csproj" />
         <ProjectReference Include="..\ConfigService\EddiConfigService.csproj" />
         <ProjectReference Include="..\DataDefinitions\EddiDataDefinitions.csproj" />
+        <ProjectReference Include="..\EddiDisplayPadService\EddiDisplayPadService.csproj" />
         <ProjectReference Include="..\EddiInaraService\EddiInaraService.csproj" />
         <ProjectReference Include="..\EddiWebhookService\EddiWebhookService.csproj" />
         <ProjectReference Include="..\Events\EddiEvents.csproj" />

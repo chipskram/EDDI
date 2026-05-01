@@ -205,6 +205,14 @@ namespace EddiStatusMonitor
             {
                 events.Add( new ShipCargoScoopEvent( status.timestamp, status.cargo_scoop_deployed ) );
             }
+            if ( status.analysis_mode != lastStatus.analysis_mode )
+            {
+                events.Add( new ShipHudModeEvent( status.timestamp, status.analysis_mode ) );
+            }
+            if ( status.night_vision != lastStatus.night_vision )
+            {
+                events.Add( new ShipNightVisionEvent( status.timestamp, status.night_vision ) );
+            }
             if ( status.lights_on != lastStatus.lights_on )
             {
                 events.Add( new ShipLightsEvent( status.timestamp, status.lights_on ) );

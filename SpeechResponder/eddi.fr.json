@@ -1286,6 +1286,15 @@
       "name": "Honorific",
       "description": "Function to provide a suitable honorific for your commander"
     },
+    "HUD Mode": {
+      "enabled": true,
+      "priority": 3,
+      "responder": true,
+      "script": null,
+      "default": true,
+      "name": "HUD Mode",
+      "description": "Triggered when you switch the HUD mode between combat and analysis"
+    },
     "Hull damaged": {
       "enabled": true,
       "priority": 1,
@@ -1906,6 +1915,15 @@
       "default": true,
       "name": "Next jump",
       "description": "Triggered when selecting a star system to jump to"
+    },
+    "Night vision": {
+      "enabled": true,
+      "priority": 3,
+      "responder": true,
+      "script": null,
+      "default": true,
+      "name": "Night vision",
+      "description": "Triggered when you activate or deactivate your night vision"
     },
     "NPC attack commenced": {
       "enabled": true,

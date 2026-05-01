@@ -1550,6 +1550,15 @@
       "default": true,
       "includes": null
     },
+    "HUD Mode": {
+      "enabled": true,
+      "priority": 3,
+      "responder": true,
+      "script": null,
+      "default": true,
+      "name": "HUD Mode",
+      "description": "Triggered when you switch the HUD mode between combat and analysis"
+    },
     "Hull damaged": {
       "name": "Hull damaged",
       "description": "Se activa cuando el casco de su nave se encuentra dañada en cierta medida",
@@ -2368,6 +2377,15 @@
       "script": "{_ Triggered when selecting a star system to jump to }\r\n\r\n\r\n{_ Context }\r\n{SetState('eddi_context_remaining_jumps', event.remainingjumpsinroute)}",
       "default": true,
       "includes": null
+    },
+    "Night vision": {
+      "enabled": true,
+      "priority": 3,
+      "responder": true,
+      "script": null,
+      "default": true,
+      "name": "Night vision",
+      "description": "Triggered when you activate or deactivate your night vision"
     },
     "NPC attack commenced": {
       "name": "NPC attack commenced",

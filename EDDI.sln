@@ -148,6 +148,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EddiIPC_Service", "IPC_Serv
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EddiWebhookService", "EddiWebhookService\EddiWebhookService.csproj", "{942A0D83-5E8D-4A8F-89B1-BBF64900424E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EddiDisplayPadService", "EddiDisplayPadService\EddiDisplayPadService.csproj", "{F75F07EC-1E74-43DA-BEE5-CF0D39825486}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -306,6 +308,10 @@ Global
 		{942A0D83-5E8D-4A8F-89B1-BBF64900424E}.Debug|x64.Build.0 = Debug|x64
 		{942A0D83-5E8D-4A8F-89B1-BBF64900424E}.Release|x64.ActiveCfg = Release|x64
 		{942A0D83-5E8D-4A8F-89B1-BBF64900424E}.Release|x64.Build.0 = Release|x64
+		{F75F07EC-1E74-43DA-BEE5-CF0D39825486}.Debug|x64.ActiveCfg = Debug|x64
+		{F75F07EC-1E74-43DA-BEE5-CF0D39825486}.Debug|x64.Build.0 = Debug|x64
+		{F75F07EC-1E74-43DA-BEE5-CF0D39825486}.Release|x64.ActiveCfg = Release|x64
+		{F75F07EC-1E74-43DA-BEE5-CF0D39825486}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -340,6 +346,7 @@ Global
 		{170A4485-CAF0-49AF-83EF-C4BB7A35E964} = {7511F244-BC52-4F4A-ABBE-3956957B4F1B}
 		{6D178024-2B17-A598-760C-ED5440830C10} = {DBAE065B-DD96-4349-9189-D0935280BB0B}
 		{942A0D83-5E8D-4A8F-89B1-BBF64900424E} = {DBAE065B-DD96-4349-9189-D0935280BB0B}
+		{F75F07EC-1E74-43DA-BEE5-CF0D39825486} = {DBAE065B-DD96-4349-9189-D0935280BB0B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		RESX_SortFileContentOnSave = True
